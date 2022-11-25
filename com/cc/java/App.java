@@ -1,15 +1,17 @@
 package com.cc.java;
 
-
 public class App {
 
     public static void main(String[] args) {
 
-        Mitarbeiter mitarbeiter1 = new Mitarbeiter("Cartmann", "Eric", "Chef", 2010);
+        Mitarbeiter mitarbeiter1 = new Mitarbeiter("Cartmann", "Eric",
+                "Chef", 2010);
 
-        Mitarbeiter mitarbeiter2 = new Mitarbeiter("Broflovski", "Kyle", "Java developper", 2011);
+        Mitarbeiter mitarbeiter2 = new Mitarbeiter("Broflovski", "Kyle",
+                "Java developper", 2011);
 
-        Mitarbeiter mitarbeiter3 = new Mitarbeiter("March", "Stan", "Team leader", 2012);
+        Mitarbeiter mitarbeiter3 = new Mitarbeiter("March", "Stan",
+                "Team leader", 2012);
 
         Mitarbeiter[] people = new Mitarbeiter[] { mitarbeiter1, mitarbeiter2, mitarbeiter3 };
 
